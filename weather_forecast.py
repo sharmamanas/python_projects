@@ -1,8 +1,9 @@
 import requests
 import os
 from datetime import datetime
+import os
 
-user_api="7db544b1bb6cc32e78fae86f9d0f4d7f"
+user_api=os.environ['api_key']      
 location=input("Enter your city name: ")
 
 
